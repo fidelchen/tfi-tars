@@ -7,5 +7,5 @@ Syntax highlighting and code snippets for
 
 ```bash
 cd ~/.vscode/extensions
-git clone https://github.com/aikoven/vscode-slice.git
+git clone https://github.com/fidelchen/tfi-tars.git
 ```
