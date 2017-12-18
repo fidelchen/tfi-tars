@@ -1,0 +1,52 @@
+{
+	"name": "tars",
+	"displayName": "tars",
+	"description": "Syntax highlighting for tars",
+	"version": "0.0.1",
+	"icon": "images/icon.png",
+	"publisher": "aikoven",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/aikoven/vscode-tars.git"
+	},
+	"engines": {
+		"vscode": "^1.16.0"
+	},
+	"categories": [
+		"Languages",
+		"Snippets"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "tars",
+				"aliases": [
+					"tars",
+					"TARS"
+				],
+				"extensions": [
+					".tars"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "tars",
+				"scopeName": "source.tars",
+				"path": "./syntaxes/tars.tmLanguage"
+			}
+		],
+		"snippets": [
+			{
+				"language": "tars",
+				"path": "./snippets/tars.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "45a069f7-dd8f-4265-b0c0-2c565bf89c28",
+		"publisherId": "790d7156-a3fa-4fad-b82c-2862d975eebe",
+		"publisherDisplayName": "Daniel Lytkin"
+	}
+}
