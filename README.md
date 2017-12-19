@@ -9,3 +9,5 @@ Syntax highlighting and code snippets for
 cd ~/.vscode/extensions
 git clone https://github.com/fidelchen/tfi-tars.git
 ```
+
+Thanks vscode-slice (https://github.com/aikoven/vscode-slice.git)
